@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@import './Board.css';
+@import './Space.css';
+@import './History.css';
+@import './GameControls.css';
+@import './Score.css';
+@import './TimerAndMoves.css';
+@import './ConfigDialog.css';
+@import './Header.css';

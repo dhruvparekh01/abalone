@@ -1,0 +1,131 @@
+h3 > * {
+  vertical-align: middle;
+}
+
+.history ol {
+  padding-left: 20px;
+}
+
+.history li > * {
+  vertical-align: middle;
+}
+
+.history li::marker {
+  font-weight: bold;
+}
+
+.total-time span {
+  vertical-align: middle;
+}
+
+.move-container {
+  display: inline-block;
+  padding: 4px;
+  margin: 5px auto;
+  border: 1px solid black;
+  border-radius: 2em;
+  background: darkgrey;
+}
+
+.marble, .direction {
+  display: inline-flex;
+  height: 2em;
+  width: 2em;
+  border: 1px solid lightgrey;
+  border-radius: 100%;
+  vertical-align: middle;
+  color: lightgrey;
+  font-size: 1em;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.historyMarbleWhite {
+  color: grey;
+}
+
+.direction {
+  background: lightgrey;
+  color: black;
+}
+
+#movesHistory {
+  overflow-y: scroll;
+  height: calc(100vh - 31.5em);
+  margin: 0;
+}
+
+#timeAndMoves {
+  display: grid;
+  grid-template-rows: 1em 2em 2em;
+  grid-template-columns: 2em auto 7em;
+  row-gap: 0.25em;
+  column-gap: 1em;
+}
+
+#timeAndMoves h4 {
+  margin: 0;
+}
+
+#totalTimeLabel {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#totalMovesLabel {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#blackMarbleLabel {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#whiteMarbleLabel {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#totalTimeLabel, #totalMovesLabel, #totalTimeBlack, #totalTimeWhite, #totalMovesBlack, #totalMovesWhite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#totalTimeBlack {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#totalTimeWhite {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#totalMovesBlack {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#totalMovesWhite {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}

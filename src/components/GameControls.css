@@ -1,0 +1,41 @@
+/* Game Controls */
+#controls {
+     display: flex;
+     justify-content: space-evenly;
+     border: 1px solid lightgrey;
+     border-radius: 10px;
+     min-width: calc(30% + 2em);
+     margin-left: 1em;
+ }
+
+/* Game */
+.sidebar {
+    padding: 10px;
+    max-width: 30%;
+    border: 1px solid lightgrey;
+    flex: 2;
+    height: calc(100vh - 8.5em);
+    border-radius: 10px;
+    margin: 0 1em 1em 0;
+}
+
+.sidebar h3, .sidebar h4 {
+    margin: 0.5em 0;
+}
+
+.gameplay {
+    display: flex;
+}
+
+/* Common */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

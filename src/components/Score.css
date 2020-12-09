@@ -1,0 +1,51 @@
+#timerAndMoveLimit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreMarble {
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+  border: 1px solid lightgrey;
+}
+
+.scoreMarbleBlack {
+  background-color: ghostwhite;
+}
+
+.scoreMarbleBlack {
+  background-color: black;
+}
+
+.scoreHeader {
+  padding: 0.25em;
+  display: flex;
+  align-items: center;
+  height: 1.5em;
+  background-color: lightgrey;
+  
+}
+
+.scoreHeader span {
+  font-weight: bolder;
+  font-size: 16pt;
+}
+
+.scoreHeaderWhite span {
+  color: ghostwhite;
+}
+
+.scoreContainer {
+  display: flex;
+  height: calc(2em + 0.25em);
+  padding: 0.25em;
+}
+
+.scoreContainerFull {
+  justify-content: space-between;
+}
+
+.scoreContainerNotFull div {
+  margin-right: 1.5em;
+}

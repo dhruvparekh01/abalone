@@ -1,0 +1,48 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+}
+
+#headerText {
+  flex: 10;
+  padding: 0.25em;
+  margin: 0.25em;
+  font-family: 'Merriweather', serif;
+}
+
+.winHeader {
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.winHeader span {
+  margin-right: 1em;
+  font-size: 8pt;
+  white-space: nowrap;
+}
+
+.winHeader h2 {
+  white-space: nowrap;
+  margin: 0;
+}
+
+.winnerWhite {
+  color: ghostwhite;
+  -webkit-text-stroke: 1px grey;
+}
+
+.winnerBlack {
+  color: black;
+  -webkit-text-stroke: 1px lightgrey;
+}
+
+.winnerTie {
+  color: grey;
+  -webkit-text-stroke: 1px lightgrey;
+}

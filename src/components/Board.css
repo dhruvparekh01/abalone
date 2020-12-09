@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#playArea {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 3;
+  position: relative;
+}
+
+#moves {
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
+  right: 1em;
+  top: 0;
+}
+
+#moves div {
+  width: 2.5em;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#moves div:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.currentTurn {
+  background-color: lightgray;
+}
+
+.clicksDisabled {
+  pointer-events: none;
+}
